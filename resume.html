@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Armin's Webpage</title>
+        <meta charset="utf-8">
+        <!---------------------favicon---------------------->
+        <link rel="icon" href="img/atlogo-favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="img/atlogo-favicon.ico" type="image/x-icon"/>
+        <!---------------Viewport scaling-------------------->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!------------ bootstrap and custom style sheets --------------->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet" media="screen">
+        <!----------- Bootstrap javascript and jquery ---------->
+        <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <!------Page container for bootstrap ------>
+        <div class="container">
+            <!---Fixed navbar for page navigation --->
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!---Hamburger menu toggle for when on mobile devices ---->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collpase-1" aria-exanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                            
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/atlogo.png" alt="Armin Toussi logo" /></a>
+                    </div>
+                    <!-----creates links and dropdowns on nav bar -----> 
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <!---creates aboutme drop down ---->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true" aria-expanded="false">About Me<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="aboutme.html">About Me</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="resume.html">Resume</a></li>
+                                    <li role="separator" class="divider"></li>
+                                </ul>
+                            </li>
+                            <!---- creates another dropdown list for Blogs ---->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Blogs<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="projectblog.html">Project Blog</a></li>
+                                    <li><a href="CSTblog.html">CST Blog</a></li>
+                                </ul>
+                            </li>
+                            <!------- standard navbar links --------->
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contactme.html">Contact Me</a></li>
+                        </ul>
+                        <!----- icons for social media links and the like ----->
+                        <p class="navbar-text navbar-right"><a href="https://ca.linkedin.com/in/armin-toussi-904482111">
+                            <img src="img/linkedin29px.png" alt="linkedin logo"></a></p>
+                        <p class="navbar-text navbar-right"><a href="https://www.facebook.com/armin.toussi">
+                            <img src="img/FB-f-Logo__blue_29.png" alt="fb logo"></a></p>
+                        <p class="navbar-text navbar-right"><a href="https://github.com/watley">
+                            <img src="img/GitHub-Mark-Light-64px.png" alt="github logo"></a></p>    
+                    </div>   
+                </div>
+            </nav>
+            <!------------------- navigation bar ends here ------------------->
+        </div>
+        <!--------------------Main content starts here ----------------------->
+        <div class="container">
+            <div class="blog-header">
+                <a href="resumeCoop.doc"><button type="button" class="btn btn-info btn-lg pull-right">Resume PDF</button></a>
+                <h1 class="blog-title">Resume</h1>
+                <p class="lead blog-description">Comprehensive Resume</p>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-sm-8 blog-main">
+                    <div class="blog-post">
+                        <h2 class="resume-header">Objective</h2>
+                        <hr />
+                        <p>To obtain a co-op position where I can enhance my learning experience and 
+                            apply the knowledge I have gained through the Computer Systems Technology 
+                            program at BCIT as well as gain valuable experience in the software 
+                            development field.</p>
+                        <h2 class="resume-header">Skills</h3>
+                        <hr />
+                        <p>I am a positive self-starter that also has the ability to work well in a team.
+                            My years in the culinary industry have taught me how to work in high-pressure 
+                            situations and problem solve. I love to learn and have a short learning
+                            curve.</p>
+                        <h4 class="resume-header">Technical</h4>
+                        <ul>
+                            <li>Ability to analyze and explain the behavior of simple programs involving
+                                fundamental object-oriented programming constructs.</li>
+                            <li>Ability to design, implement, debug and test simple programs in 
+                                object-oriented programming language(Java)</li>
+                            <li>Create algorithms for solving simple problems</li>
+                            <li>Ability to create web pages from scratch using HTML and CSS</li>
+                            <li>Create and implement a simple interface design</li>
+                            <li>Some experience with javascript, PHP, and jquery</li>
+                            <li>Will soon learn how to apply the functions in the standard C library 
+                                in developing programs</li>
+                            <li>Manage C programs that involve multiple files</li>
+                            <li>Analyze and explain the behavior of programs written in C</li>
+                            <li>Design and implement application programs using C</li>
+                        </ul>
+                        <h4 class="resume-header">Transferrable</h4>
+                        <ul>
+                            <li>Ability to effectively communicate in a team</li>
+                            <li>Ability to identify elements in a communication exchange</li>
+                            <li>Select and organize information to meet the needs of the audience</li>
+                            <li>Ability to plan and deliver an informative oral presentation to a c
+                                group audience</li>
+                            <li>Ability to lead a group of 20 or more</li>
+                            <li>Ability to operate under strict budget constraints and deliver a
+                                quality product</li>
+                            <li>Ability to work in high pressure situtations</li>
+                            <li>Extensive training experience</li>
+                            <li>Formerly responsible for recruitment, interviewing, and hiring</li>
+                            <li>Create and put into place rigorous systems and guidelines that adhere to 
+                                budget constraints used for everyday operations</li>
+                        </ul>
+                        <h2 class="resume-header">Work History</h2>
+                        <hr />
+                        <h3>Prosnack Foods</h3>
+                        <h4 class="pull-right">2014 - 2015</h4>
+                        <p class="blog-description">Factory Line Worker</p>
+                        <ul>
+                            <li>Prepared mix for health bar accurately according to company recipes.</li>
+                            <li>Upheld stringent standards of food quality and factory cleanliness.</li>
+                            <li>Ensured proper storage standards upheld.</li>
+                        </ul>
+                        <hr />
+                        <h3>Fairmont Hotel Vancouver</h3>
+                        <h4 class="pull-right">2011 - 2013</h4>
+                        <p class="blog-description">Second Cook</p>
+                        <ul>
+                            <li>Responsible for organizing, preparing, and cooking food for 
+                                banquets of 50-1200 people.</li>
+                            <li>Responsible for working in any culinary department in the hotel;
+                                garde manger, banquets, restaurant, pastry, and butchery departments.</li>
+                            <li>Took part in two culinary events at the hotel and our team won 
+                                best dish at both events.</li>
+                        </ul>
+                        <hr />
+                        <h3>Munch Family Restaurant</h3>
+                        <h4 class="pull-right">2010</h4>
+                        <p class="blog-description">Chef</p>
+                        <ul>
+                            <li>Responsible for turning around a failing kitchen, brought
+                                food cleanliness standards up to stellar level. Implemented
+                                a strict food cost program and began weekly inventory counts.</li>
+                            <li>Creation of new menu that adhered to customer preference and 
+                                restaurant brand.</li>
+                            <li>Responsible for hiring and training new kitchen staff.</li>
+                        </ul>
+                        <hr />
+                        <h3>Saltlik Steakhouse</h3>
+                        <h4 class="pull-right">2005 - 2009</h4>
+                        <p class="blog-description">Sous Chef</p>
+                        <ul>
+                            <li>Responsible for smooth day to day operations of the kitchen
+                                ensuring highest quality food standards and customer happiness.</li>
+                            <li>Responsible for creating action plans for hitting training and budgeting
+                                targets.</li>
+                            <li>Created and maintained bi-weekly schedule for more than 20 kitchen
+                                staff.</li>
+                        </ul>
+                        <hr />
+                        <h3>Milestones</h3>
+                        <h4 class="pull-right">2004 - 2005</h4>
+                        <p class="blog-description">Line Cook</p>
+                        <ul>
+                            <li>Responsible for reproducing company recipes during high volume 
+                                dinner and lunch services.</li>
+                            <li>Continued effective communication throughout kitchen.</li>
+                            <li>Coordinated all stations of the kitchen to meet quality and 
+                                time standards.</li>
+                        </ul>
+                        <hr />
+                        <h3>Cactus Club Cafe</h3>
+                        <h4 class="pull-right">2003 - 2004</h4>
+                        <p class="blog-description">Line Cook & Shift Leader</p>
+                        <ul>
+                            <li>Responsible for opening of restaurant, taking inventory, and setting 
+                                daily food prep schedules.</li>
+                            <li>Continued effective communication throughout kitchen.</li>
+                            <li>Coordinated all stations of the kitchen to meet quality and 
+                                time standards.</li>
+                        </ul>
+                        <hr />
+                        <h3>McDonald's Restaurants</h3>
+                        <h4 class="pull-right">2001 - 2003</h4>
+                        <p class="blog-description">Shift Worker - Shift Manager</p>
+                        <ul>
+                            <li>Worked and communicated effectively in a team.</li>
+                            <li>Trained new employees on different stations.</li>
+                            <li>Dealt with customers and was responsible for taking 
+                                orders and dealing with money.</li>
+                        </ul>
+                        <hr />
+                        <h2 class="resume-header">Hobbies</h2>
+                        <p>My hobbies include:</p>
+                        <ul>
+                            <li>Reading</li>
+                            <li>Movies</li>
+                            <li>TV shows</li>
+                            <li>Video Games</li>
+                            <li>Music</li>
+                        </ul>
+                        <hr />
+                        <h2 class="resume-header">Education</h2>
+                        <h4 class="pull-right">2015 - Present</h4>
+                        <h3>British Columbia Institute of Technology</h3>
+                        <ul>
+                            <li>Enrolled in Computer Systems Technology Program</li>
+                        </ul>
+                        <h4 class="pull-right">2013 - 2014</h4>
+                        <h3>Capilano University</h3>
+                        <ul>
+                            <li>Won Jim Cooke Award for outstanding academic performance with
+                                GPA of 4.15.</li>
+                            <li>Completed high school course upgrades for entry to BCIT as well
+                                as completing high school.</li>
+                        </ul>
+                        <h4 class="pull-right">1998 - 2002</h4>
+                        <h3>Sutherland Secondary School</h3>
+                        <hr />
+                        <h2 class="resume-header">References</h2>
+                        <p>References available for Saltlik, Munch, and Prosnack. As Fairmont does
+                            not do traditional references, they have supplied me with a letter as 
+                            proof of employment, a copy of which is available upon request. </p>
+                        <p>As I do not wish to put my reference phone numbers online please contact me 
+                            via the <a href="contactme.html" class="links">contact me</a> page or 
+                            download the <a href="resumeCoop.doc">PDF of my resume</a> for additional
+                            contact information.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center blog-sidebar">
+                    <div class="sidebar-module sidebar-module-inset">
+                        <h3>About</h3>
+                        <p>If you want to check out more please have a look at my projects page. It contains a description of 
+                            the projects that I have worked on, some in school and some in my spare time. Each project description
+                            also has a link to the <em>GitHub</em> repository for the corresponding project. You could also have a  
+                            look at my project blogs page for some insight into my thoughts during the process. Links below, thank you.</p>
+                    </div>
+                    <h2 class="">More...</h2>
+                    <hr />
+                    <ul class="list-unstyled">
+                        <li><a href="resumeCoop.doc" class="links"><strong>Resume PDF</strong></a></li>
+                        <li><a href="projects.html" class="links"><strong>Projects</strong></a></li>
+                        <li><a href="projectblog.html" class="links"><strong>Projects Blog</strong></a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <!----------------------------end of content------------------------------>
+         <!---------------------Footer Starts here--------------------->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <p class="lead" id="footerText">Thank you for visiting my personal Site!</p>
+                    <hr class="footer-hr"/>
+                    <!---------- Footer Navigation ------------>
+                    <h3 class="text-center resume-header">Site Map</h3>
+                    <ul class="list-inline" id="footer-list">
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="index.html" class="links">Main</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="aboutme.html" class="links">About Me</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="resume.html" class="links">Resume</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="CSTblog.html" class="links">CST Blog</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="projectblog.html" class="links">Project Blog</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="projects.html" class="links">Projects</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="contactme.html" class="links">Contact Me</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                    </ul>
+                    <!--------------Footer Social Media Links----------->
+                    <ul class="list-inline text-center">
+                        <li><a href="https://www.facebook.com/armin.toussi"><img src="img/facebookTrans.png" alt="Facebook Armin" /></a></li>
+                        <li><a href="https://github.com/watley"><img src="img/gitTrans.png" alt="Armin Git" /></a></li>
+                        <li><a href="https://ca.linkedin.com/in/armin-toussi-904482111">
+                                <img src="img/LinkedinTrans.png" alt="Armin Linkedin"/></a></li>
+                    </ul>
+                    <hr class="footer-hr"/>
+                    <p class="text-center" id="copyright">Copyright 2016 &copy; All rights reserved</p>
+                    <p class="text-center" id="credit">Credit to Gorgo for header image and PlanningForums for project image</p>
+                </div>
+            </div>
+        </footer>
+        <!-------------------Footer Ends ----------------->
+    </body>
+</html>
