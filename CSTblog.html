@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Armin's Webpage</title>
+        <meta charset="utf-8">
+        <!---------------------favicon---------------------->
+        <link rel="icon" href="img/atlogo-favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="img/atlogo-favicon.ico" type="image/x-icon"/>
+        <!---------------Viewport scaling-------------------->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!------------ bootstrap and custom style sheets --------------->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet" media="screen">
+        <!----------- Bootstrap javascript and jquery ---------->
+        <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    </head>
+    <!------------- SELF NOTE - THAT THIS IS ALWAYS GOING TO BE THE CURRENT MONTH OF BLOGGING, MAKE A COPY OF THIS
+                    PAGE AND THEN RENAME THE COPY TO PREVIOUSMONTHBLOG.HTML AND JUST ERASE THE BLOGS HERE AND 
+                    I WILL LOOK FOR MORE DYNAMIC WAYS TO MANAGE THIS IN THE FUTURE ---------------->
+    <body id="top">
+        <!------Page container for bootstrap ------>
+        <div class="container">
+            <!---Fixed navbar for page navigation --->
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!---Hamburger menu toggle for when on mobile devices ---->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collpase-1" aria-exanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                            
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/atlogo.png" alt="Armin Toussi logo" /></a>
+                    </div>
+                    <!-----creates links and dropdowns on nav bar -----> 
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <!---creates aboutme drop down ---->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true" aria-expanded="false">About Me<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="aboutme.html">About Me</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="resume.html">Resume</a></li>
+                                    <li role="separator" class="divider"></li>
+                                </ul>
+                            </li>
+                            <!---- creates another dropdown list for Blogs ---->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Blogs<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="projectblog.html">Project Blog</a></li>
+                                    <li><a href="CSTblog.html">CST Blog</a></li>
+                                </ul>
+                            </li>
+                            <!------- standard navbar links --------->
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contactme.html">Contact Me</a></li>
+                        </ul>
+                        <!----- icons for social media links and the like ----->
+                        <p class="navbar-text navbar-right"><a href="https://ca.linkedin.com/in/armin-toussi-904482111">
+                            <img src="img/linkedin29px.png" alt="linkedin logo"></a></p>
+                        <p class="navbar-text navbar-right"><a href="https://www.facebook.com/armin.toussi">
+                            <img src="img/FB-f-Logo__blue_29.png" alt="fb logo"></a></p>
+                        <p class="navbar-text navbar-right"><a href="https://github.com/watley">
+                            <img src="img/GitHub-Mark-Light-64px.png" alt="github logo"></a></p>    
+                    </div>   
+                </div>
+            </nav>
+            <!------------ navigation bar ends here ------------>
+        </div>
+        <!-----------------content starts here ------------->
+        <div class="container">
+            <!------------------CST Blog header ---------------------->
+            <div class="blog-header" id="math">
+                <h1 class="blog-title">CST Blog</h1>
+                <p class="lead blog-description">Check out my latest thoughts about the CST program.</p>
+            </div>
+            <!------------------- Separate page into two columns for posts and nav ------------------->
+            <div class="row">
+                <div class="col-sm-8 blog-main">
+                    <!----------------------- A Blog post/Template ----------------------------->
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">First Days Term Two</h2>
+                        <p class="blog-post-meta">January 5, 2015 by Armin</p>
+                        <p>Well term two has begun. It started yesterday and although the labs are mostly cancelled this week, 
+                            we still have lectures all week with the occassional lab. This is nice but also can create problems 
+                            depending on your schedule. Our set/cohort, Set D, almost got stuck with a 5 hour break between morning
+                            lab and afternoon lectures. Luckily, our morning instructor moved things to another day so that was 
+                            great. I've met all of my lecture instructors now, with only a couple of lab instructors to meet.</p>
+                        <h3>Teachers</h3>
+                        <P>To summarize, so far so good. Most of the teachers seem really great so far. For Discrete Math we have
+                            a man called Goran Ruzic and he seems really cool. Like the name suggests, he seems to be Eastern 
+                            European of some kind. He speaks clearly and is very deliberate. Teaching in general seems different
+                            this term, less power point style teaching and more hands on example type teachin and Goran follows
+                            this trend.</p>
+                            
+                        <p>For Java level 2 we have a man called Dennis and he is very down to earth. He comes 
+                            off as being just like one of us. He seems like a coder and seems very relateable. I'm looking forward
+                            to that class as he discussed we will be building bigger programs some of it being over time 
+                            and slowly adding modules to the programs. That sounds very interesting.</P>
+                    
+                        <p>We have a man called Albert H. Wei for our C programming course.  I have been told in the past 
+                            by other T.A.'s and teachers that Albert is an absolute genius.  With my first impressions under 
+                            my belt, I will say that he is very unique to say the least.  He is an older Asian gentleman and 
+                            has a very comical way of talking, but he is able to keep people's attention and make them 
+                            laugh too. Apparently he is very straight forward and tells you what's on the exams and what 
+                            to do for them.  C programming is a lot harder than Java, or so i've heard, so i'm interested
+                            to see how this turns out. Really looking forward to his course.</p>
+                    
+                        <p>Computer Architecture is another course we have and the teacher is Jason Harrison. I've taken
+                            a couple courses with Jason already and I think he is absolutely great.  I've gotten used 
+                            to his straight forward tell-it-like-it-is method of teaching. He doesn't waste time, he's 
+                            right to the point and no B.S. Students have already seem to have taken to him just like 
+                            i took to him in my previous courses.  He told us how to be successful in the course and 
+                            more importantly gave us a big warning in that if we fall behind in the course we will 
+                            probably not be able to catch up. It'll be interesting to see the differences between 
+                            how he teaches this course and other courses.</p>
+                    
+                        <p>I had my first Database lecture today by Keith Tang.  Man, i hate to be that guy but
+                            holy that was boring. It's a two hour lecture, which is rare, but this is gonna be 
+                            painful. Part of the reason that's going to be the case is because it is a two hour
+                            lecture on one of the more boring topics after a REALY long day.  I do like him however,
+                            as he is very good at explaining things and making sure we understand them so far. 
+                            Keith is definitely an old school type of guy, but i dont mind that, for me it's more 
+                            the lateness of the course and the length of the lecture. It's always hard to keep 
+                            students entertained for 2 hours in a lecture but doing it when you are teaching 
+                            database has got to be hard. We'll see how this course pans out, but databases are 
+                            an integral part of any software dev's tool kit.</p>
+                        
+                        <p>The last course is a communications course and the teacher is the same as last term
+                            and if you have read my december term one summary blogs then you will know that 
+                            it is Frank Schnurr. I'm not looking forward to communications however, Frank is great 
+                            and im looking forward to interacting with him again.</p>
+                        <h3>Finally</h3>
+                        <p>Well so far i've enjoyed meeting my teachers and seeing my term one friends again. I'm
+                            really going to try and keep this blog going throughout the year, it's one of my goals.
+                            However, I don't expect to do it more than once or twice a week as things get going. 
+                            Anyways, i look forward to what this term brings and hopefully i pass, as this is 
+                            one of the terms of death. Thanks</p>
+                    </div>
+                    <hr />
+                    <!----------------- back to top button ------------------>
+                    <a href="#top"><button class="btn btn-primary back">Back to Top</button></a>
+                </div>
+                <!------------------------- side bar -------------------->
+                <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+                     <!---------------------- About side bar section --------------------->
+                    <div class="sidebar-module sidebar-module-inset">
+                        <h4>About</h4>
+                        <p>This blog is about my experiences in the <em>Computer Systems Technology Program</em>
+                            at </em>British Columbia Institute of Technology</em>. These thoughts are based on 
+                            my experience in the program and thus are to be taken with a grain of salt.</p>
+                    </div>
+                <!------------------------ Side  Archive Navigation --------------------------->
+                    <div class="sidebar-module">
+                        <h4>Archives</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="#">January 2016</a></li>
+                            <li><a href="decblog.html">December 2015</a></li>
+                        </ol>
+                    </div>
+                <!---------------------------end of archive nav------------------------->
+                </div>
+            <!-------------------------end of sidebar --------------------------->
+            </div>    
+        </div>
+                <!-----------Footer Starts here---------------->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <p class="lead" id="footerText">Thank you for visiting my personal Site!</p>
+                    <hr class="footer-hr"/>
+                    <!---------- Footer Navigation ------------>
+                    <h3 class="text-center resume-header">Site Map</h3>
+                    <ul class="list-inline" id="footer-list">
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="index.html" class="links">Main</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="aboutme.html" class="links">About Me</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="resume.html" class="links">Resume</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="CSTblog.html" class="links">CST Blog</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="projectblog.html" class="links">Project Blog</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="projects.html" class="links">Projects</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                        <li><strong><a href="contactme.html" class="links">Contact Me</a></strong></li>
+                        <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></li>
+                    </ul>
+                    <!--------------Footer Social Media Links----------->
+                    <ul class="list-inline text-center">
+                        <li><a href="https://www.facebook.com/armin.toussi"><img src="img/facebookTrans.png" alt="Facebook Armin" /></a></li>
+                        <li><a href="https://github.com/watley"><img src="img/gitTrans.png" alt="Armin Git" /></a></li>
+                        <li><a href="https://ca.linkedin.com/in/armin-toussi-904482111">
+                                <img src="img/LinkedinTrans.png" alt="Armin Linkedin"/></a></li>
+                    </ul>
+                    <hr class="footer-hr"/>
+                    <p class="text-center" id="copyright">Copyright 2016 &copy; All rights reserved</p>
+                    <p class="text-center" id="credit">Credit to Gorgo for header image and PlanningForums for project image</p>
+                </div>
+            </div>
+        </footer>
+        <!-------------------Footer Ends ----------------->
+    </body>
+</html>
